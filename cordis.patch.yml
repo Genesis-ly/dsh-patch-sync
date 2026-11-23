@@ -1,0 +1,5 @@
+# 把 dsh-patch-sync 挂进 profile 的插件清单。
+# 本插件通过 link: 安装（见 README），自动更新插件会跳过非 registry 依赖。
+- insert:
+    - id: dsh-patch-sync
+      name: dsh-patch-sync
